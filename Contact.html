@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Troy university</title>
+    <link rel="stylesheet" href="Style uni.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="icon" type="image/x-icon" href="../photo/pngtree-university-logo-in-flat-style-png-image_6402847.ico">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+</head>
+
+<body>
+    <Section class="con-header">
+        <nav>
+            <a href="University.html" class="animate__animated animate__flipInY"><img src="../photo/pngtree-university-logo-in-flat-style-png-image_6402847.png"
+                    alt="Error"></a>
+            <div class="nav-link" id="navLink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="University.html">Home</a></li>
+                    <li><a href="About us.html">About</a></li>
+                    <li><a href="Course.html">Course</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1 class="animate__animated animate__zoomInUp" >Contact Us</h1>
+
+    </Section>
+
+    <section class="location">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.3225697530206!2d90.37287651404925!3d23.771525084578972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c79414120f23%3A0xe9d08f498cb34b7e!2sSher-e-Bangla%20Agricultural%20University!5e0!3m2!1sen!2sbd!4v1673458978236!5m2!1sen!2sbd"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+
+                    <span>
+                        <h5>SAU CAMPUS</h5>
+                        <p>Sher-e-Bangla Agricultural University,Dhaka-1207</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+
+                    <span>
+                        <h5>+880 16785508</h5>
+                        <p>Sunday-Thusday, 9AM to 8PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+
+                    <span>
+                        <h5>Sauedubd@gmail.com</h5>
+                        <p>Email Us Your Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="Email" placeholder="Enter Email">
+                    <input type="text" placeholder="Enter Your Subject">
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red">Sent Message</button>
+                 </form>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ---footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea deleniti voluptates eveniet. Quidem commodi,
+            perspiciatis ea molestias <br> architecto labore dolore repudiandae molestiae dolor ipsa tempore cupiditate
+            nisi id maiores et.</p>
+        <div class="icons">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-linkedikn"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-heart-o"><b>by Shawon</b> </i> </p>
+    </section>
+
+
+
+
+
+
+    <!-- --------javascript for toggle menu -->
+    <script>
+        var navLink = document.getElementById("navLink")
+        function showMenu() {
+            navLink.style.right = "0"
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px"
+        }
+
+    </script>
+</body>
+
+</html>
